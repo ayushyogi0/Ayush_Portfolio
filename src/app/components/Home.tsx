@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { Eye, ArrowRight, Github, Linkedin, Instagram } from "lucide-react";
-=======
-import { useState, useEffect } from 'react';
-import { Download, ArrowRight, Github, Linkedin, Instagram } from "lucide-react";
->>>>>>> 468b3e0677d9d6d7e54022ff19576ad695d098a7
 import { motion } from "motion/react";
 
 export function Home() {
@@ -103,11 +98,7 @@ export function Home() {
             >
               <a href="/AyushYogi_Cv.pdf" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 <button className="w-full px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl text-white font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 flex items-center justify-center gap-2 group">
-<<<<<<< HEAD
                   <Eye size={20} />
-=======
-                  <Download size={20} />
->>>>>>> 468b3e0677d9d6d7e54022ff19576ad695d098a7
                   View CV
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </button>
